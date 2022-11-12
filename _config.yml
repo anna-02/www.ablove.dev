@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  anna-02
 
 # Build settings
-theme: hacker
+theme: minima
 plugins:
   - jekyll-feed
 
