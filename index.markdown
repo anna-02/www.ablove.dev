@@ -4,16 +4,14 @@
 title: 
 layout: default
 ---
-<div class="container pt-5 pb-2">
-	<div class="row justify-content-md-center">
-    <div class="text-center text-white col-12 col-md-7 mb-lg-1 pt-4">
+<div class="row justify-content-md-center">
+    <div class="text-center col-12 col-md-7 mb-lg-1 pt-4">
       <h1>Anna's Personal Website</h1>
     </div>
   </div>
-</div>
 <!-- <div style="background-color: rgba(255,255,255,0.75)"> -->
-<div class="container pb-2" style="background-color: rgba(255,255,255,0.75)" >
-    <div class="text-justify col-12 order-1 order-md-1">
+<div class="row justify-content-md-center pb-2" >
+<div class="text-justify col-12 order-1 order-md-1">
         <div class="col-12 mb-lg-1 pt-4 text-center col align-self-center" >
         <img alt="vpnalyzer overview" id="right" style=" width: auto; height: auto; max-width:40%; float: right; padding-left: 1cm;" src="{{ site.url }}/assets/img/anna_pic.jpeg" />
         </div>
@@ -22,7 +20,7 @@ layout: default
       </div>  
 </div>
 
-<div class="container pt-5 pb-2" style="background-color: rgba(255,255,255,0.75)">
+<!-- <div class="container pt-5 pb-2"> -->
 <div class="row py-1 justify-content-between">
 <div class="row text-center">
 	<h2>Current and Recent Projects</h2>
@@ -58,5 +56,5 @@ layout: default
         </div>
       </div>
 	</div>
-  </div>
-</div>
+  <!-- </div> -->
+<!-- </div> -->

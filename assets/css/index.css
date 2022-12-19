@@ -4,7 +4,9 @@
 .vh-75{
     min-height: 75vh!important;
 }
-
+h1, h2{
+  font-family: "Verdana";
+}
 /* #background{
   opacity: 0.2;
 } */
