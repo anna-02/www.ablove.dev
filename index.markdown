@@ -6,13 +6,13 @@ layout: default
 ---
 <div class="container pt-5 pb-2">
 	<div class="row justify-content-md-center">
-  <div class="text-center col-12 col-md-7 mb-lg-1 pt-4">
-    <h1>Anna's Personal Website</h1>
+    <div class="text-center text-white col-12 col-md-7 mb-lg-1 pt-4">
+      <h1>Anna's Personal Website</h1>
+    </div>
+  </div>
 </div>
-
-</div>
-<div class="container pt-5 pb-2">
-	<div class="row py-1 justify-content-between">
+<!-- <div style="background-color: rgba(255,255,255,0.75)"> -->
+<div class="container pb-2" style="background-color: rgba(255,255,255,0.75)" >
     <div class="text-justify col-12 order-1 order-md-1">
         <div class="col-12 mb-lg-1 pt-4 text-center col align-self-center" >
         <img alt="vpnalyzer overview" id="right" style=" width: auto; height: auto; max-width:40%; float: right; padding-left: 1cm;" src="{{ site.url }}/assets/img/anna_pic.jpeg" />
@@ -20,11 +20,9 @@ layout: default
       <p class="large">Hello, my name is Anna Ablove, and I am a graduate student at the University of Michigan studying Computer Science. For the past year, I have been a part of Professor Roya Ensafi's lab, researching the deployment and circumvention of internet censorship. Additionally, for the past two summers, I have worked as an instructor at Insprit AI, where I taught middle school and high school students to program in Python, apply algorithms to real-world datasets, discuss AI ethics and applications, and build interactive web apps to deploy their machine learning models. </p>
       <!-- <p class="large">During undergrad, I did a project through a Google funded computer science research program studying story convergence in news reporting. I used web scrapers to build a dataset of articles, and then applied Natural Language Processing concepts, like Named Entity Recognition, to summarize and classify them. Also, for a final project in a Natural Language Processing course, I implemented a recently proposed neural network architecture, Hierarchal Attention Networks to build a sarcasm detection classifier. As part of my coursework this year, I am looking forward to deepening my understanding of the underlying mathematics and theory behind topics I explored during undergrad, such as machine learning and cryptography, as well as my functional knowledge of network security and associated method and technologies. </p> -->
       </div>  
-    </div>
-    </div>
 </div>
 
-<div class="container pt-5 pb-2">
+<div class="container pt-5 pb-2" style="background-color: rgba(255,255,255,0.75)">
 <div class="row py-1 justify-content-between">
 <div class="row text-center">
 	<h2>Current and Recent Projects</h2>
@@ -61,22 +59,4 @@ layout: default
       </div>
 	</div>
   </div>
-</div>
-
-<div class="container pt-5 pb-2">
-	<div class="row justify-content-md-center">
-<div class="text-center col-12 col-md-7 mb-lg-1 pt-4">
-	<h2 id="alpha">Contact Information</h2>
-</div>
-</div>
-	<div class="row py-1 justify-content-between">
-    <div class="text-justify col-12 col-md-8 order-1 order-md-1">
-	<p class="large">Email: <a href="mailto:aablove@umich.edu">aablove@umich.edu</a></p>
-    <p class="large">Github: <a href="https://github.com/anna-02">anna-02</a></p>
-    <p class="large">LinkedIn: <a href="https://www.linkedin.com/in/anna-ablove-046941196/">Anna Ablove</a></p>
-    </div>
-    <!-- <div class="col-12 col-md-4 order-2 order-md-2">
-      <div class="mt-5 mt-md-0"><img alt="vpnalyzer tool" style=" width: 80%; height: 60%; object-fit: cover" src="{{ site.url }}/assets/img/vpnalyzer-tool-splash.png" /></div>
-      </div> -->
-    </div>
 </div>
