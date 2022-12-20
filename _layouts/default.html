@@ -20,12 +20,12 @@ layout: table_wrapper
 <body>
 
     <div id="background" class="bg-image" style="background-image: url('{{ site.url }}/assets/img/desert2.jpeg');
-    height: 100vh; background-size: 100% 100%;">
+    background-size: 100% 100%;">
     {% include navbar.html %}
 
     <div class="container vh-75">
         <div class="row">
-            <div class="container col-sm-12 col-md-10 col-lg-10 mx-auto mt-3 py-2" style="background-color: rgba(255,255,255,0.75)" >
+            <div id = "content" class="container col-sm-12 col-md-10 col-lg-10 mx-auto mt-3 py-2" style="background-color: rgba(255,255,255,0.75)" >
                 {{ content }}
             </div>
         </div>

@@ -10,7 +10,7 @@ layout: default
     </div>
   </div>
 <!-- <div style="background-color: rgba(255,255,255,0.75)"> -->
-<div class="row justify-content-md-center pb-2" >
+<div class="row justify-content-md-center pb-4" >
 <div class="text-justify col-12 order-1 order-md-1">
         <div class="col-12 mb-lg-1 pt-4 text-center col align-self-center" >
         <img alt="vpnalyzer overview" id="right" style=" width: auto; height: auto; max-width:40%; float: right; padding-left: 1cm;" src="{{ site.url }}/assets/img/anna_pic.jpeg" />
@@ -47,7 +47,7 @@ layout: default
          <div class="panel-body">Russia's Sovereign RuNet was designed to build a Russian national firewall. Previous anecdotes and isolated events in the past two years reflected centrally coordinated censorship behaviors across multiple ISPs, suggesting the deployment of "special equipment" in networks, colloquially known as "TSPU". Despite the TSPU comprising a critical part of the technical stack of RuNet, very little is known about its design, its capabilities, or the extent of its deployment. In this paper, presented at IMC 2022, we developed novel techniques and run in-country and remote measurements to discover the how, what, and where of TSPU's interference with users' Internet traffic. I developed traceroute visualizations that illustrated where the deployment of TSPU is located on network paths.</div>
         </div>
         <div class="panel panel-default">
-         <div class="panel-heading mb-3"> <a href="https://hiyori-02.itch.io/operation-homunculi" style="color: black; font-size: 1.25em;"><b>Operation Homunculi</b>:</a> </div>
+         <div class="panel-heading mb-3"> <a href="https://hiyori-02.itch.io/operation-homunculi" style="color: black; font-size: 1.25em;"><b>Operation Homunculi</b></a> </div>
          <div class="panel-body">"Operation Homunculi is a stealth/horror game where you must navigate through an eerie prison where all is not as it seems. Let the shadows be your guide and use your powers to avoid, distract, and control the freaks of nature you find lurking in the cells and hallways — but make sure you’re not caught off guard, you can’t fight back!" <i>This game was completed as part of my senior design captone course</i>.</div>
         </div>
         <div class="panel panel-default">
