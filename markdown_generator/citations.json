@@ -1,0 +1,3 @@
+{
+    "tspu-paper":"@inproceedings{Xue2022TSPU, author = {Diwen Xue and Benjamin Mixon-Baca and ValdikSS and Anna Ablove and Beau Kujath and Jedidiah R. Crandall and Roya Ensafi}, title = {{TSPU: Russia’s Decentralized Censorship System}}, booktitle = {Proceedings of the 22nd ACM Internet Measurement Conference}, year = {2022}, address = {Nice, France}, publisher = {Association for Computing Machinery} }"
+}

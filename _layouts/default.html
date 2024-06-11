@@ -1,38 +1,31 @@
 ---
-layout: table_wrapper
+layout: compress
 ---
 
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{% include base_path %}
 
-<head>
-    {% include meta.html %}
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-    {%- feed_meta -%}
-    {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include analytics.html -%}
-    {%- endif -%}
+  <body>
 
-    {%- include head.html -%}
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-</head>
+    {{ content }}
 
-<body>
-
-    <div id="background" class="bg-image" style="background-image: url('{{ site.url }}/assets/img/desert2.jpeg');
-    background-size: 100% 100%;">
-    {% include navbar.html %}
-
-    <div class="container vh-75">
-        <div class="row">
-            <div id = "content" class="container col-sm-12 col-md-10 col-lg-10 mx-auto mt-3 py-2" style="background-color: rgba(255,255,255,0.75)" >
-                {{ content }}
-            </div>
-        </div>
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
     </div>
-</div>
 
-    {% include footer.html %}
+    {% include scripts.html %}
 
-</body>
+  </body>
 </html>
