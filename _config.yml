@@ -7,7 +7,7 @@
 # server process.
 
 theme: minimal-mistakes-jekyll
-
+minimal_mistakes_skin: dark
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Anna Ablove"
