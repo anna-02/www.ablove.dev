@@ -284,6 +284,7 @@ DEPENDENCIES
   faraday-retry
   github-pages
   hawkins
+  jekyll
   minimal-mistakes-jekyll
   webrick (~> 1.8)
 
