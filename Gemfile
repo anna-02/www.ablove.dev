@@ -26,5 +26,6 @@ group :jekyll_plugins do
   gem 'faraday-retry'
   gem 'hawkins'
   gem 'breakpoint'
+  gem "minimal-mistakes-jekyll"
   gem "webrick", "~> 1.8"
 end
