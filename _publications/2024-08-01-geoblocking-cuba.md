@@ -5,6 +5,7 @@ permalink: /publication/2024-08-01-geoblocking-cuba
 excerpt: '**A. Ablove**, S. Chandrashekaran, H. Le, R. Sundara Raman, R. Ramesh, H. Oppenheimer, and R. Ensafi'
 date: 2024-08-01
 venue: 'USENIX Security Symposium'
+award: Distinguished Paper Award Winner 🏆
 # paperurl: 'https://censoredplanet.org/assets/tspu-imc22.pdf'
 ---
 
