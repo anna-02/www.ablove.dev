@@ -6,10 +6,10 @@ excerpt: '**A. Ablove**, S. Chandrashekaran, H. Le, R. Sundara Raman, R. Ramesh,
 date: 2024-08-01
 venue: 'USENIX Security Symposium'
 award: Distinguished Paper Award Winner 🏆
-# paperurl: 'https://censoredplanet.org/assets/tspu-imc22.pdf'
+paperurl: 'https://www.usenix.org/system/files/usenixsecurity24-ablove.pdf'
 ---
 
-<!-- <a href='https://censoredplanet.org/assets/tspu-imc22.pdf'>Download paper here</a> -->
+<a href='https://www.usenix.org/system/files/usenixsecurity24-ablove.pdf'>Download paper here</a>
 
 **A. Ablove**, S. Chandrashekaran, H. Le, R. Sundara Raman, R. Ramesh, H. Oppenheimer, and R. Ensafi
 {% include_relative citations/geoblocking-cuba.html %}
